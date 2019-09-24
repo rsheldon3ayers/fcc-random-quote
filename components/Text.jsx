@@ -19,7 +19,7 @@ class Text extends React.Component {
   render() {
     return (
       <div id="quote-box">
-        <p id="text">{this.state.quoteObj.quote}</p>
+        <p id="text">"{this.state.quoteObj.quote}"</p>
         <p id="author">--{this.state.quoteObj.author}</p>
       </div>
     );
