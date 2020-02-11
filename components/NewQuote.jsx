@@ -3,7 +3,7 @@ import React from "react";
 
 class NewQuote extends React.Component {
   render() {
-    return <button>New Quote</button>;
+    return <button id="new-quote">New Quote</button>;
   }
 }
 

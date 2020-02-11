@@ -1,6 +1,7 @@
 import React from "react";
 import Text from "./Text.jsx";
 import NewQuote from "./NewQuote.jsx";
+import TweetQuote from "./TweetQuote.jsx";
 
 import axios from "axios";
 
@@ -26,6 +27,7 @@ class QuoteBox extends React.Component {
       <div id="quote-box">
         <Text quote={this.state.quote} author={this.state.author} />
         <NewQuote />
+        <TweetQuote />
       </div>
     );
   }
